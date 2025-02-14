@@ -1,7 +1,6 @@
 # CORRbox
 
-This repo is a version of *internal* use for monet lab. Note that this version is 
-different from the [currently available version](https://github.com/kisungyou/papers/tree/master/02-CORRbox) that uses quotient geometry. Rather, this is for the newer version of correlation-based geometries.
+This repository contains **CORRbox**, a MATLAB toolbox that accompanies the manuscript titled "_Scalable Geometric Learning with Correlation-Based Functional Brain Networks_", co-authored with [Prof. Hae-Jeong Park](http://neuroimage.yonsei.ac.kr/). Please note that this toolbox is an enhanced alternative to [another package](https://github.com/kisungyou/papers/tree/master/02-CORRbox) that uses quotient geometry in terms of computational efficiency.
 
 ## 1. Requirements and Installation
 This package is designed for use with `MATLAB`, requiring some modules such as 

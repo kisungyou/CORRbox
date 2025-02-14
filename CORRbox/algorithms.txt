@@ -1,0 +1,36 @@
+Algorithms By Category
+
+Dimensionality Reduction
+	corr_ae          : autoencoder
+	corr_cmds        : classical multidimensional scaling
+	corr_mmds        : metric multidimensional scaling
+	corr_pga         : principal geodesic analysis
+	corr_tsne        : t-stochastic neighbor embedding
+
+Clustering
+	corr_kmeans      : k-means clustering
+	corr_kmedoids    : k-medoids clustering
+	corr_specc       : spectral clustering
+	corr_silhouette  : cluster validity index of Silhouette score
+	corr_CH          : cluster validity index of Calinski and Harabasz
+
+Regression on Scalar Response
+  corr_gpreg       : gaussian process regression
+  corr_kernreg     : kernel regression
+ 	corr_svmreg      : support vector machine regression
+
+Hypothesis Testing
+	corr_test2mmd    : two-sample testing via Maximum Mean Discrepancy
+  corr_test2bg     : two-sample testing by Biswas-Ghosh method
+  corr_test2wass   : two-sample testing with Wasserstein distance
+	corr_test2energy : two-sample testing by Energy distance
+
+Exploratory Analysis
+	corr_mean        : Fréchet mean
+	corr_median      : Fréchet median
+	corr_mmd         : Maximum Mean Discrepancy
+	corr_wasserstein : Wasserstein distance between two empirical measures
+
+Others
+	corr_pdist       : pairwise distance 
+	corr_pdist2      : cross pairwise distance
