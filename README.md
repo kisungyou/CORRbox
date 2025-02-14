@@ -12,6 +12,15 @@ After downloading this repo, place `CORRbox` folder to where you want to use and
 
 ## 2. How to use?
 
+In order to download this toolbox:
+```
+git clone --no-checkout --depth 1 https://github.com/kisungyou/CORRbox.git
+cd CORRbox
+git sparse-checkout init --cone
+git sparse-checkout set CORRbox
+git checkout
+```
+
 I added a number of example scripts in the folder with detailed comments. Please consult those. For all functions in this package, the data is assumed to be _wrapped_ using `corr_init` functions, which performs *preparation* of the data by checking whether each FC matrix is truly a correlation matrix.
 
 If you want to find documentation of certain functions, you may type in MATLAB console like typical functions. For instance, suppose you are interested in learning how to use the function `corr_mean`. Then, the help page can be shown by typing the following in the console:
